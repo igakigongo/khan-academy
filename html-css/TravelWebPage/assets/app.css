@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(10, 42, 102);
+  color: #fff;
+}
+
+h2 {
+  color: orange;
+}
+
+#paragraph-written-on {
+  font-size: normal;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.list-title {
+  color: orange;
+}
+
+.list-fact {
+  font-style: italic;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 20%;
+  height: 200px;
+  padding: 2.5%;
+}
+
+.image-container > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50% 50%;
+}
+
+.image-description {
+  font-style: italic;
+  font-weight: 100;
+  color: orange;
+  width: 100%;
+  text-align: center;
+}
