@@ -1,72 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Project: Travel webpage</title>
 		<link rel="stylesheet" href="./assets/app.css" />
 	</head>
 	<body>
-		<main>
-			<h1>Travel to <em>San Sebastian in Spain</em></h1>
-			<h2>About San Sebastian</h2>
-			<p>
-				San Sebastián is a <em>resort town</em> on the Bay of Biscay in Spain’s mountainous Basque
-				Country. It’s known for Playa de la Concha and Playa de Ondarreta, beaches framed by a
-				picturesque bayfront promenade, and world-renowned restaurants helmed by innovative chefs.
-				In its cobblestoned old town (Parte Vieja), upscale shops neighbor vibrant pintxo bars
-				pairing local wines with bite-size regional specialties.
-			</p>
-			<h2>Facts about San sebastain at the writing of this page: <strong></strong></h2>
-			<p id="paragraph-written-on">Written on: 09.12.2018 18:45 Amsterdam</p>
-			<ul>
-				<ol>
-					<span class="list-title">Weather:</span>
-					<span class="list-fact">13°C, Wind NW at 16 km/h, 78% Humidity</span>
-				</ol>
-				<ol>
-					<span class="list-title">Local time:</span>
-					<span class="list-fact">Sunday 18:42</span>
-				</ol>
-				<ol>
-					<span class="list-title">Population:</span>
-					<span class="list-fact">186,064 (2016) Instituto Nacional de Estadística</span>
-				</ol>
-				<ol>
-					<span class="list-title">Province:</span>
-					<span class="list-fact">Gipuzkoa</span>
-				</ol>
-			</ul>
-			<div id="gallery">
-				<div class="image-container">
-					<img
-						src="https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png"
-						alt="Mountain Matterhorn"
-					/>
-					<p class="image-description">Mountain Matterhorn</p>
-				</div>
-				<div class="image-container">
-					<img src="https://www.kasandbox.org/programming-images/landscapes/beach-at-dusk.png" />
-					<p class="image-description">Beach of La Concha</p>
-				</div>
-				<div class="image-container">
-					<img
-						src="https://www.kasandbox.org/programming-images/landscapes/beach.png"
-						alt="Beach"
-					/>
-					<p class="image-description">The Beach</p>
-				</div>
-				<div class="image-container">
-					<img src="https://www.kasandbox.org/programming-images/animals/shark.png" alt="Ocean" />
-					<p class="image-description">Under the Ocean</p>
-				</div>
+		<header>
+			<div class="container">
+				<h1 class="page-title mb-3">Travel to <em>San Sebastian</em> in Spain</h1>
+				<h2 class="sub-title mb-3">About San Sebastian</h2>
 			</div>
-			<h2>My Top/Favorite Destinations</h2>
-			<ol>
-				<li>Beach of La Concha</li>
-				<li>Miramr Palace</li>
-				<li>Urgull</li>
-				<li>San Sebastian Cathedral</li>
-			</ol>
+		</header>
+		<main>
+			<div class="container">
+				<p class="mb-3">
+					San Sebastián is a <em>resort town</em> on the Bay of Biscay in Spain’s mountainous Basque
+					Country. It’s known for Playa de la Concha and Playa de Ondarreta, beaches framed by a
+					picturesque bayfront promenade, and world-renowned restaurants helmed by innovative chefs.
+					In its cobblestoned old town (Parte Vieja), upscale shops neighbor vibrant pintxo bars
+					pairing local wines with bite-size regional specialties.
+				</p>
+				<h2 class="sub-title mb-3">
+					Facts about San sebastain at the writing of this page: <strong></strong>
+				</h2>
+				<small class="paragraph-written-on mb-3">Written on: 09.12.2018 18:45 Amsterdam</small>
+				<ul class="mb-3">
+					<li class="mb-2">
+						<span class="list-title">Weather:</span>
+						<span class="list-fact">13°C, Wind NW at 16 km/h, 78% Humidity</span>
+					</li>
+					<li class="mb-2">
+						<span class="list-title">Local time:</span>
+						<span class="list-fact">Sunday 18:42</span>
+					</li>
+					<li class="mb-2">
+						<span class="list-title">Population:</span>
+						<span class="list-fact">186,064 (2016) Instituto Nacional de Estadística</span>
+					</li>
+					<li class="mb-2">
+						<span class="list-title">Province:</span>
+						<span class="list-fact">Gipuzkoa</span>
+					</li>
+				</ul>
+				<div class="gallery">
+					<div class="image-container">
+						<img
+							src="https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png"
+							alt="Mountain Matterhorn"
+						/>
+						<p class="image-description">Mountain Matterhorn</p>
+					</div>
+					<div class="image-container">
+						<img src="https://www.kasandbox.org/programming-images/landscapes/beach-at-dusk.png" />
+						<p class="image-description">Beach of La Concha</p>
+					</div>
+					<div class="image-container">
+						<img
+							src="https://www.kasandbox.org/programming-images/landscapes/beach.png"
+							alt="Beach"
+						/>
+						<p class="image-description">The Beach</p>
+					</div>
+					<div class="image-container">
+						<img src="https://www.kasandbox.org/programming-images/animals/shark.png" alt="Ocean" />
+						<p class="image-description">Under the Ocean</p>
+					</div>
+				</div>
+				<h2 class="sub-title mb-3">My Top/Favorite Destinations</h2>
+				<ol>
+					<li>Beach of La Concha</li>
+					<li>Miramr Palace</li>
+					<li>Urgull</li>
+					<li>San Sebastian Cathedral</li>
+				</ol>
+			</div>
 		</main>
 	</body>
 </html>
